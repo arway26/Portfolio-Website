@@ -1,35 +1,29 @@
-# assignment-4
+# Portfolio Website
 Arwa Aldawoud – Personal Portfolio
 
-A modern, responsive personal portfolio website showcasing my journey as a Computer Science student at KFUPM, featuring my projects, skills, achievements, and extracurricular activities.
-This interactive version includes state management, API integration, performance optimizations, and advanced user interactions.
+A modern, responsive personal portfolio website showcasing my journey as a Computer Science student at KFUPM. This interactive portfolio features my projects, skills, achievements, and experiences with dynamic content, smooth animations, and interactive project cards with direct GitHub repository links.
 
 ## 🌟 Features
 
 **State Management:**
 - Theme Toggle: Switch between light/dark modes with persistent localStorage
-- Login/Logout Simulation: Toggle login status with visual feedback
-- Visitor Name Personalization: Save name for personalized greeting
-- Projects Visibility Toggle: Show/hide projects section with saved preference
 
-**API Integration:**
-- GitHub Stats: Live data fetching from GitHub API with error handling
+**Interactive Elements:**
+- 3D Project Cards: Hover to flip and view project details with GitHub links
+- Skills Carousel: Interactive carousel showcasing technical skills
+- Experience Cards: Flipping cards displaying achievements and experiences
+- Smooth Animations: Scroll-triggered effects using Intersection Observer
 
-**Complex Logic:**
-- Form Validation: Multi-step validation with real-time feedback
-- Auto-Save: Form draft saving to localStorage
-- Visitor Timer: Real-time session duration tracking
-- AI Message Assistant: Text improvement tool for professional messages
 
 **Performance & UX:**
 - Responsive Design: Optimized for desktop, tablet, and mobile
-- Smooth Animations: Scroll-triggered effects using Intersection Observer
-- Collapsible Sections: Interactive project cards
+- Smooth Scrolling: Enhanced navigation experience
+- Blob Backgrounds: Animated gradient backgrounds
 - Accessibility Features: Semantic HTML and keyboard navigation
 
 ## 📁 Project Structure
 ```
-assignment-4/
+Portfolio-Website/
 ├── index.html                      # Main HTML file
 ├── css/
 │   └── styles.css                  # Stylesheet
@@ -37,12 +31,6 @@ assignment-4/
 │   └── script.js                   # JavaScript functionality
 ├── assets/
 │   └── images/                     # Image assets (favicon, profile, logos, skill icons)
-├── docs/
-│   ├── ai-usage-report.md         # Detailed AI usage documentation
-│   └── technical-documentation.md  # Technical documentation
-├── presentation/
-│   ├── slides.pdf                  # Presentation slides
-│   └── demo-video.mp4              # Demo video
 ├── .gitignore                      # Git ignore file
 └── README.md                       # Project documentation
 ```
@@ -51,17 +39,32 @@ assignment-4/
 
 **HTML:** Semantic markup and accessibility features
 
-**CSS3:** Grid, Flexbox, and animations for modern styling
+**CSS3:** Grid, Flexbox, 3D transforms, and animations for modern styling
 
 **JavaScript:** Dynamic content, event handling, and state management
 
-**GitHub API:** Fetches live project information
-
-**LocalStorage API:** State persistence for theme, login, name, and preferences
-
-**SessionStorage API:** Visitor timer tracking
+**LocalStorage API:** State persistence for theme preference
 
 **Intersection Observer API:** Efficient scroll animations
+
+## 📋 Projects Showcased
+
+1. **Labbi (لبِّ)** - Digital Marketplace Platform
+   - Built a bilingual digital marketplace connecting service providers with customers
+   - Features: Authentication, reviews, and verification system
+   - Technologies: Web Development, Database Design
+   - [View on GitHub](https://github.com/arway26/Labbi)
+
+2. **Horse Racing Database System**
+   - Developed an admin interface for race management with stored procedures and triggers
+   - Features: Complex database operations and API integration
+   - Technologies: SQL, Procedural SQL, Database Design, API Integration
+
+3. **Interactive Portfolio Website**
+   - Built a responsive portfolio with dynamic content and theme toggle
+   - Features: 3D card animations, skills carousel, and smooth scrolling
+   - Technologies: HTML, CSS, JavaScript
+   - [View on GitHub](https://github.com/arway26/Portfolio-Website)
 
 ## 💻 Setup Instructions
 
@@ -75,8 +78,8 @@ A local web server (optional, for optimal experience)
 
 Clone the repository:
 ```bash
-git clone https://github.com/arway26/assignment-4.git
-cd assignment-4
+git clone https://github.com/arway26/Portfolio-Website.git
+cd Portfolio-Website
 ```
 
 ### Simple File Opening
@@ -92,24 +95,11 @@ python -m http.server
 
 Then open: `http://localhost:8000`
 
-## 📊 Presentation Materials
+## 🎨 Design Features
 
-**Slides:** Available in `presentation/slides.pdf` - 11 professional slides covering project overview, features, architecture, AI usage, challenges, and future improvements.
-
-**Demo Video:** Available in `presentation/demo-video.mp4` - 3-4 minute demonstration of all interactive features and functionality.
-
-## 🤖 AI Usage Summary
-
-This project was developed with assistance from AI tools to enhance productivity and learning outcomes. AI was used for:
-
-**Code Generation:** HTML, CSS, and JavaScript suggestions for state management and API integration
-
-**Debugging:** Identifying errors and suggesting fixes
-
-**Design Inspiration:** Layout improvements and animation ideas
-
-**Problem Solving:** Best practice recommendations and performance optimization
-
-**Documentation:** Structuring README, technical docs, and AI usage reports
-
-**Detailed AI usage documentation is available in:** `docs/ai-usage-report.md`
+- **3D Card Effects:** Interactive project cards with flip animations on hover
+- **Skills Carousel:** Rotating carousel displaying technical skills
+- **Experience Cards:** Flipping cards for achievements and experiences
+- **Theme Toggle:** Seamless light/dark mode switching
+- **Blob Animations:** Animated gradient backgrounds
+- **Smooth Scrolling:** Enhanced navigation with scroll animations
