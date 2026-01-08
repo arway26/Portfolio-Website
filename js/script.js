@@ -1,7 +1,3 @@
-// ============================================================================
-// PORTFOLIO JAVASCRIPT - FINAL CLEAN VERSION
-// ============================================================================
-
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
