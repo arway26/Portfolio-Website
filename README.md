@@ -59,6 +59,7 @@ Portfolio-Website/
    - Developed an admin interface for race management with stored procedures and triggers
    - Features: Complex database operations and API integration
    - Technologies: SQL, Procedural SQL, Database Design, API Integration
+   - [View on GitHub](https://github.com/arway26/Horse-Racing-Database)
 
 3. **Interactive Portfolio Website**
    - Built a responsive portfolio with dynamic content and theme toggle

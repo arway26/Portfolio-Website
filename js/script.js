@@ -340,9 +340,8 @@ function setupProjectLinks() {
         horseRacingProject.style.cursor = 'pointer';
         // Note: Add GitHub repository URL when available
         horseRacingProject.addEventListener('click', function() {
-            // Placeholder - update with actual GitHub repository URL
-            // window.open('https://github.com/arway26/HorseRacingDatabase', '_blank', 'noopener,noreferrer');
-            console.log('Horse Racing Database project - GitHub link to be added');
+            // Open the Horse Racing Database GitHub repository
+            window.open('https://github.com/arway26/Horse-Racing-Database', '_blank', 'noopener,noreferrer');
         });
     }
     
